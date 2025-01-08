@@ -44,11 +44,9 @@ public class DataBaseTesting {
             e.printStackTrace();
         }
     }
-
     @Given("I query all employee names from the {string} table")
     public void iQueryAllEmployeeNamesFromTheTable(String employees) {
     }
-
     @Then("I should get the following names:")
     public void iShouldGetTheFollowingNames(DataTable dataTable) {
 //        String url = "jdbc:mariadb://3.16.40.221/my_jdbc_db";
